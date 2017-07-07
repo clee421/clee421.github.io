@@ -1682,7 +1682,8 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			/*color: #ffffff;*/
+			color: #CC0000;
 		}
 
 	strong, b {
@@ -3423,7 +3424,8 @@
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						/*color: rgba(255, 255, 255, 0.35);*/
+						color: #6A6A6A;
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
@@ -3432,11 +3434,13 @@
 					}
 
 						#header > nav > ul > li a:hover {
-							color: rgba(255, 255, 255, 0.55);
+							/*color: rgba(255, 255, 255, 0.55);*/
+							color: #6A6A6A;
 						}
 
 						#header > nav > ul > li a.active {
-							color: #ffffff;
+							/*color: #ffffff;*/
+							color: #CC0000;
 						}
 
 		@media screen and (max-width: 736px) {
@@ -3538,7 +3542,8 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		/*background: #312450;*/
+		background: #FFFFFF;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3751,7 +3756,8 @@
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			/*color: rgba(255, 255, 255, 0.35);*/
+			color: #6A6A6A;
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3775,14 +3781,15 @@
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				/*background: #3c2c62;*/
+				background: #6A6A6A;
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #CC0000, #858585);
+				background-image: -webkit-linear-gradient(to right, #CC0000, #858585);
+				background-image: -ms-linear-gradient(to right, #CC0000, #858585);
+				background-image: linear-gradient(to right, #CC0000, #858585);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3791,11 +3798,13 @@
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				/*color: rgba(255, 255, 255, 0.55);*/
+				color: #858585;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				/*color: #ffffff;*/
+				color: #CC0000;
 			}
 
 				#sidebar nav a.active:after {
