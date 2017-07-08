@@ -2490,7 +2490,8 @@
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
 			border-color: #ffffff;
-			color: #b74e91;
+			/*color: #b74e91;*/
+			color: #6A6A6A;
 			content: '\f00c';
 		}
 
@@ -2560,7 +2561,7 @@
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #CC0000;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2571,27 +2572,33 @@
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					/*color: #5e42a6;*/
+					color: #6A6A6A;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					/*color: #493382;*/
+					color: #6A6A6A;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					/*color: #5052b5;*/
+					color: #6A6A6A;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					/*color: #3e4094;*/
+					color: #6A6A6A;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					/*color: #b74e91;*/
+					color: #6A6A6A;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					/*color: #953d75;*/
+					color: #6A6A6A;
 				}
 
 /* Image */
@@ -3046,7 +3053,8 @@
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				/*background: rgba(49, 36, 80, 0.9);*/
+				background: #6A6A6A;
 				content: '';
 				display: block;
 				height: 100%;
