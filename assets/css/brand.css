@@ -9,3 +9,14 @@
   font-size: 1em;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
 }
+
+.profile-wrap {
+  display: flex;
+}
+
+.profile-image{
+  margin: 0 1em;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+}
