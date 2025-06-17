@@ -1,6 +1,6 @@
 <style>
   .page-container {
-    height: 80vh;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +67,7 @@
 </script>
 
 <div class="page-container">
+  <h1 class="text-4xl text-blue-500">Tailwind is alive 🎉</h1>
   <button class="wrap-button" on:click={handleClick}>
     <div class="header">
       <h1>Calvin Lee</h1>
