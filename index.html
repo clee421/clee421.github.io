@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>I build cool things</title>
+  <meta name="description" content="personal website">
+  <meta name="author" content="calvin lee">
+
+  <link href="index.css" rel="stylesheet">
+  <!-- <script type='text/javascript' src='dist/client.js'></script> -->
+</head>
+
+<body style="height: 100vh;">
+  <div class="page-container">
+    <div class="wrap" on:click={handleClick}>
+      <div class="header">
+        <h1>Calvin Lee</h1>
+      </div>
+      <div bind:this={box} class="body">
+        Welcome to my playground for frontend things. To see my personal site go to <a class="link" href="https://calvinlee.dev/">calvinlee.dev</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
