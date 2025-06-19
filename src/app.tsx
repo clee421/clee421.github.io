@@ -6,7 +6,12 @@ import {
   Route,
 } from "react-router-dom";
 
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 import Main from "./main";
+
+gsap.registerPlugin(useGSAP);
 
 const App = (): ReactElement => {
   return (

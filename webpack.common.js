@@ -1,19 +1,19 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
   entry: {
-    client: './src/index.tsx'
+    client: "./src/index.tsx",
   },
   output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'client.js'
+    path: path.join(__dirname, "dist"),
+    filename: "client.js",
   },
 
   // Enable sourcemaps for debugging webpack's output.
-  devtool: 'source-map',
+  devtool: "source-map",
 
   resolve: {
-    extensions: ['.ts', '.tsx', '.js'],
+    extensions: [".ts", ".tsx", ".js"],
     alias: {},
   },
 
@@ -22,33 +22,33 @@ module.exports = {
       {
         test: /\.ts(x?)$/,
         exclude: /node_modules/,
-        use: 'ts-loader'
+        use: "ts-loader",
       },
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
       {
-        enforce: 'pre',
+        enforce: "pre",
         test: /\.js$/,
-        loader: 'source-map-loader'
+        loader: "source-map-loader",
       },
       {
         test: /\.s[ac]ss$/,
         use: [
-          'style-loader',
-          'css-loader',
+          "style-loader",
+          "css-loader",
           {
-            loader: 'sass-loader',
+            loader: "sass-loader",
             options: {
               sassOptions: {
-                includePaths: ['assets/scss'],
+                includePaths: ["assets/scss"],
               },
             },
-          }
+          },
         ],
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use: ["style-loader", "css-loader"],
       },
-    ]
+    ],
   },
 };

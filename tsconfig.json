@@ -20,6 +20,12 @@
     "type/*",
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "build",
+    "eslint.config.js",
+    "webpack.common.js",
+    "webpack.dev.js",
+    "webpack.prod.js"
   ]
 }
