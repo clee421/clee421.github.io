@@ -1,0 +1,42 @@
+{
+  "name": "clee421.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:watch": "webpack --watch --config webpack.dev.js",
+    "client:build-prod": "rm -rf ./dist/ && webpack --config webpack.prod.js",
+    "deploy": "pnpm client:build-prod && rm -rf ./build && mkdir ./build && cp -r ./dist ./build/dist && cp index.html ./build && pnpx gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "playground"
+  ],
+  "author": "calvin lee",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "dependencies": {
+    "@fluentui/react-components": "^9.66.2",
+    "normalize.css": "^8.0.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@types/react-router-dom": "^5.3.3",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.29.0",
+    "gh-pages": "^6.3.0",
+    "sass": "^1.89.2",
+    "sass-loader": "^16.0.5",
+    "source-map-loader": "^5.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}

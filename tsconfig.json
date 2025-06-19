@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {},
+    "target": "es2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*",
+    "type/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
