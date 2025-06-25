@@ -22,6 +22,14 @@
  * @author: Jack Doyle, jack@greensock.com
 */
 
+/*!
+ * SplitText 3.13.0
+ * https://gsap.com
+ *
+ * @license Copyright 2025, GreenSock. All rights reserved. Subject to the terms at https://gsap.com/standard-license.
+ * @author: Jack Doyle
+ */
+
 /**
  * @license React
  * react-dom-client.production.js
