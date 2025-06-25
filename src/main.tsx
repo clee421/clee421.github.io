@@ -31,7 +31,8 @@ const Main = (): ReactElement => {
     .timeline()
     .to(".card", { y: -30, duration: 0.15, ease: "power3.out" })
     .to(".card", { y: 0,  duration: 0.4,  ease: "bounce.out" })
-    .to([".card-intro"], { y: -12, duration: 0.12, ease: "power3.out" }, "-=0.15")
+    .to([".card-intro"], { y: 6, duration: 0.12, ease: "power3.out" }, "-=0.25")
+    .to([".card-intro"], { y: -10, duration: 0.12, ease: "power3.out" })
     .to([".card-intro"], { y: 0, duration: 0.15, ease: "bounce.out"})
     .to([".card-intro"], { y: -6, duration: 0.08, ease: "power3.out" })
     .to([".card-intro"], { y: 0, duration: 0.12, ease: "bounce.out", stagger: 0.05 });
