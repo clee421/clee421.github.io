@@ -72,9 +72,9 @@ const Main = (): ReactElement => {
 
   return (
     <div ref={scope} className="main-container">
-      <Card className="card" style={{ maxWidth: 535, minWidth: 120, padding: 24, margin: 15 }} onClick={handleClick}>
+      <Card className="card" onClick={handleClick}>
         <Title1 className="title">calvin lee</Title1>
-        <p className="card-intro" style={{ marginTop: 12 }}>
+        <p className="card-intro">
           Welcome to my playground for frontend things. To see my personal site
           go to <a href="https://calvinlee.dev/">calvinlee.dev</a>
         </p>

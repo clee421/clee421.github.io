@@ -1,3 +1,8 @@
+$cornflow-blue: rgba(60, 120, 216, 1);
+$alabaster: rgba(239, 238, 228, 1);
+$masala: rgba(91, 87, 76, 1);
+$white: rgba(255, 255, 255, 1);
+
 .main-container {
   height: 100vh;
   display: flex;
@@ -5,7 +10,29 @@
   justify-content: center;
   align-items: center;
 
+  // $black-russian
+  background-color: rgba(28, 28, 32, 1);
+
   .card {
-    cursor: pointer;
+    max-width: 535px;
+    min-width: 120px;
+    padding: 24px;
+    margin: 15px;
+    color: $cornflow-blue;
+    background-color: $alabaster;
+    box-shadow: 2px 2px 2px 2px $masala;
+    font-weight: 700;
+
+    &:hover {
+      cursor: pointer;
+      color: $cornflow-blue;
+      background-color: $white;
+      box-shadow: 2px 2px 2px 2px $masala;
+      font-weight: 700;
+    }
+
+    .card-intro {
+      margin-top: 12px;
+    }
   }
 }
